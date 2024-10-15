@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/spectre/spectre-exp.min.css">
+    <link rel="stylesheet" href="css/spectre/spectre-icons.min.css">
+    <link rel="stylesheet" href="css/spectre/spectre.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/font/fontawesome/css/all.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Document</title>
+</head>
+<body style="background:#f3f3f3">
+    <header>
+        <section id="header-desktop" class="hide-sm">
+            <div class="container pt10">
+                <div class="d-flex justify-start align-middle px-5">
+                    <div class="logo w16">
+                        <a href="index.html"><img class="" src="img/logo.webp" alt=""/></a>
+                    </div>
+                    <div class="box-address px5 py2 mx10">
+                        <a href="hethongcuahang.html" class="text-small text-white">Hệ thống cửa hàng <br><strong>TP.Hồ Chí Minh</strong></a>
+                    </div>
+                    <form class="d-flex form-search justify-between align-middle border">
+                        <input type="text" placeholder="Từ Khóa..." />
+                        <div class="px20">
+                            <i class="fas main-text-color fa-search"></i>
+                        </div>
+                    </form>
+                    <div class="d-flex justify-between align-middle mx10">
+                        <div class="name1 px10 py5 border-right bold-4">
+                            <a class="name" href="detail-product.html">Điện thoại</a>
+                        </div>
+                        <div class="px10 py2 bold-4">
+                            <a class="name" href="#">Laptop</a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-between align-middle">
+                        <img class="phone" src="img/1.jpg">
+                        <div class="mx5">
+                            <a class="text-white bold-5 text-small">
+                               Gọi mua hàng <br> <strong>1900 678 789</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-between align-middle mx10">
+                        <div class="s-circle border px5"><i class="fa-solid fa-user text-white"></i></i></div>
+                        <div class="px5">
+                            <a class="text-small bold-6 text-white d-block">Đăng nhập</a>
+                            <a class="text-small bold-6 text-white d-block">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="box-cart px5 py2 mx10">
+                        <div class="d-flex">
+                            <div class="d-flex justify-between align-middle mx5"><i class="fa-solid fa-cart-shopping text-white"></i></div>
+                            <a class="bold-5 ml10 mr5 py5 text-small" href="#">Giỏ <br> hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="header-mobile" class="hide">
+                <div class="container" style="background:black">
+                    <div class="d-flex justify-start align-middle py5" style="background:black">
+                        <div class="logo w16 p10" style="background:white">
+                            <a href="#"><img class="" src="img/logo.webp" alt=""/></a>
+                        </div>
+                        <div class="my10 pl20 w100">
+                            <form class="d-flex form-search justify-between align-middle border">
+                                <input type="text" placeholder="Tìm sản phẩm ..." />
+                                <div class="px-1">
+                                    <i class="fas main-text-color fa-search"></i>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>    
+        <div id="main-menu" class="hide-sm main-bg-color">
+            <div class="container">
+                <div class="d-flex justify-start align-middle" style="margin: 0 auto">
+                        <div class="item">
+                            <a class="text-large" href="dienthoai.html"> Điện thoại <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Apple</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Iphone Cũ</a></li>
+                                        <li> <a href="#">Iphone Mới</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Samsung</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Galaxy Z Fold 4</a></li>
+                                        <li> <a href="#">Galaxy Z Fold 5</a></li>
+                                        <li> <a href="#">Galaxy Z Fold 6</a></li>
+                                        <li> <a href="#">Galaxy Z Fold 7</a></li>
+                                        <li> <a href="#">Galaxy Z Fold 8</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="intro.html"> Laptop <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Apple</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Ipad Pro</a></li>
+                                        <li> <a href="#">Ipad Air</a></li>
+                                        <li> <a href="#">Ipad Mini</a></li>
+                                        <li> <a href="#">MiniPad</a></li>
+                                        
+                                    </ul>
+                                </li>                     
+                                <li>
+                                    <a href="#">Laptop Dell</a>
+                                </li>
+                                <li><a href="#">Laptop MSI</a></li>
+                                <li><a href="#">Laptop Asus</a></li>
+                                <li><a href="#">Laptop HP</a></li>
+                                <li><a href="#">Laptop Lenovo</a></li>
+                                <li><a href="#">Laptop Acer</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="products.html"> Ipad <i class="fa-solid fa-caret-down"></i> </a>
+                            <ul class="subnav">
+                                <li><a href="#">Ipad Cũ</a></li>
+                                <li><a href="#">Ipad Mới</a></li>
+                                <li><a href="#">Ipad Mini</a></li>
+                                <li><a href="#">Ipad Air</a></li>
+                                <li><a href="#">Ipad Pro</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="news.html"> Phụ kiện <i class="fa-solid fa-caret-down"></i> </a>
+                            <ul class="subnav">
+                                <li><a href="#">Phụ kiện Mac</a></li>
+                                <li><a href="#">Phụ kiện Apple</a></li>
+                                <li><a href="#">Phim sạc dự phòng</a></li>
+                                <li><a href="#">Dây củ sạc</a></li>
+                                <li><a href="#">Adapter Dây củ sạc</a></li>
+                                <li><a href="#">Cường lực ốp lưng</a></li>
+                                <li><a href="#">Balo, túi xách, ví</a></li>
+                                <li><a href="#">Adapter Dây củ sạc</a></li>
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Apple</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Ipad Pro</a></li>
+                                        <li> <a href="#">Ipad Air</a></li>
+                                        <li> <a href="#">Ipad Mini</a></li>
+                                        <li> <a href="#">MiniPad</a></li>
+                                        
+                                    </ul>
+                                </li>   
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="contact.html"> Apple watch </a>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="contact.html"> Âm thanh <i class="fa-solid fa-caret-down"></i> </a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Apple</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Ipad Pro</a></li>
+                                        <li> <a href="#">Ipad Air</a></li>
+                                        <li> <a href="#">Ipad Mini</a></li>
+                                        <li> <a href="#">MiniPad</a></li>
+                                        
+                                    </ul>
+                                </li> 
+                                <li><a href="#">Marshall</a></li>
+                                <li><a href="#">Bose</a></li>
+                                <li><a href="#">Bang & Olufsen</a></li>
+                                <li><a href="#">Beats audio</a></li>
+                            </ul>    
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="contact.html"> Dịch vụ sữa chữa </a>                              
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="contact.html"> Máy cũ giá rẻ <i class="fa-solid fa-caret-down"></i> </a>
+                            <ul class="subnav">
+                                <li><a href="#">Iphone cũ</a></li>
+                                <li><a href="#">Ipad cũ</a></li>
+                                <li><a href="#">Mac cũ</a></li>
+                            </ul>  
+                        </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <section id="breakrum" style="background:white">
+        <div class="container mb20">
+            <div class="d-flex justify-start align-middle col-sm-12">
+                <i class="fa-sharp fa-solid fa-house text-small pr-2"></i>
+                <div class="breadcrumb">
+                    <div class="breadcrumb-item">
+                        <a href="#" class="text-small">Trang chủ</a>
+                    </div>
+                    <div class="breadcrumb-item">
+                        <a href="#" class="text-small">Điện thoại</a>
+                    </div>
+                </div>      
+            </div> 
+        </div>
+    </section>
+    <section id="product-dt">
+        <div class="container mt20 mb20">
+            <div class="main-dienthoai pt10 pb10 rounded">
+                <div class="slide-dt pt50 pb50">
+                    <div class="d-flex justify-center align-middle ">
+                        <img src="img/sl-dt.webp">
+                    </div>   
+                </div>
+                <div class="itemfmenu mx15 rounded my10 hide-sm">
+                    <div class="d-flex justify-start align-middle p5 ">
+                        <a href="#" class="item p10 ml10 bold-6">Apple</a>
+                        <a href="#" class="item p10 ml5 bold-6">SamSung</a>
+                    </div>
+                </div>
+                <div class="columns mx15 pt20">
+                    <div class="column col-3 hide-sm">
+                        <div class="bold-6 pb5 h4">Lọc giá</div>
+                        <div class="columns pb10">
+                            <div class="column col-6">
+                                <div class="">
+                                    <input type="text" placeholder="Giá tối thiểu">
+                                </div>                        
+                            </div>
+                            <div class="column col-6">
+                                <div class="">
+                                    <input type="text" placeholder="Giá tối đa">
+                                </div>   
+                            </div>
+                        </div>
+                        <button class="btn-apdung mb20">Áp dụng</button>
+                        <div class="bold-6 pb5 h4">Thương hiệu</div>
+                        <div class="px15 py5 border rounded w50 mb20">Apple</div>
+                        <div class="bold-6 pb5 h4">Loại</div>
+                        <div class="px15 py5 border rounded w38">Điện thoại</div>
+                        <div class="tick">
+                            <button class="btn-meo mt30 bold-6">MẸO HAY CHO BẠN</button>
+                        </div>
+                        <div class="post-dt pt15">
+                            <div class="columns mb10 border-bottom">
+                                <div class="column col-5">
+                                    <img src="img/ip15.webp" style="height:80%">
+                                </div>
+                                <div class="column col-7 pb10">
+                                    <div class="post-dt-item ellipsis-3">iPad mới có kích thước 'khổng lồ' dự kiến sẽ được ra mắt vào năm 2023</div>
+                                </div>
+                            </div>
+                            <div class="columns mb10 border-bottom">
+                                <div class="column col-5">
+                                    <img src="img/ip15.webp" style="height:80%">
+                                </div>
+                                <div class="column col-7 pb10">
+                                    <div class="post-dt-item ellipsis-3">iPad mới có kích thước 'khổng lồ' dự kiến sẽ được ra mắt vào năm 2023</div>
+                                </div>
+                            </div>
+                            <div class="columns mb10 border-bottom">
+                                <div class="column col-5">
+                                    <img src="img/ip15.webp" style="height:80%">
+                                </div>
+                                <div class="column col-7 pb10">
+                                    <div class="post-dt-item ellipsis-3">iPad mới có kích thước 'khổng lồ' dự kiến sẽ được ra mắt vào năm 2023</div>
+                                </div>
+                            </div>
+                            <div class="columns mb10 border-bottom">
+                                <div class="column col-5">
+                                    <img src="img/ip15.webp" style="height:80%">
+                                </div>
+                                <div class="column col-7 pb10">
+                                    <div class="post-dt-item ellipsis-3">iPad mới có kích thước 'khổng lồ' dự kiến sẽ được ra mắt vào năm 2023</div>
+                                </div>
+                            </div>
+                            <div class="columns mb10 border-bottom">
+                                <div class="column col-5">
+                                    <img src="img/ip15.webp" style="height:80%">
+                                </div>
+                                <div class="column col-7 pb10">
+                                    <div class="post-dt-item ellipsis-3">iPad mới có kích thước 'khổng lồ' dự kiến sẽ được ra mắt vào năm 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-9 col-sm-12">
+                        <div class="d-flex pb15 border-bottom hide-sm">
+                            <div class="bold-6 h4 mr5 ">Sắp xếp:</div>
+                            <a href="#" class="sapxep-item">Mặc định</a>
+                            <a href="#" class="sapxep-item">A <i class="fa-sharp fa-solid fa-arrow-right"></i> Z</a>
+                            <a href="#" class="sapxep-item">Z <i class="fa-sharp fa-solid fa-arrow-right"></i> A</a>
+                            <a href="#" class="sapxep-item">Giá tăng dần</a>
+                            <a href="#" class="sapxep-item">Giá giảm dần</a>
+                            <a href="#" class="sapxep-item">Mới nhất</a>
+                            <a href="#" class="sapxep-item">Cũ nhất</a>
+                        </div>
+                        <div class="pb15 border-bottom hide">
+                            <div class="bold-6 h4 mr5 mb10">Sắp xếp:</div>
+                            <a href="#" class="sapxep-item">Mặc định</a>
+                            <a href="#" class="sapxep-item ">A <i class="fa-sharp fa-solid fa-arrow-right"></i> Z</a>
+                            <a href="#" class="sapxep-item ">Z <i class="fa-sharp fa-solid fa-arrow-right"></i> A</a>
+                            <div class="pb15 border-bottom mb15"></div>
+                            <a href="#" class="sapxep-item ">Giá tăng dần</a>
+                            <a href="#" class="sapxep-item ">Giá giảm dần</a>
+                            <div class="pb15 border-bottom mb15"></div>
+                            <a href="#" class="sapxep-item ">Mới nhất</a>
+                            <a href="#" class="sapxep-item ">Cũ nhất</a>
+                        </div>
+                        <div class="columns pt20 pb30">
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a  href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-3 pb10 col-sm-6">
+                                <div class="item-flashsale pt15 pb20 px10 rounded shadow-collection-item">
+                                    <div class="zoom-small">
+                                        <img class="w100" src="img/fs-1.webp">
+                                    </div>                      
+                                    <a href="detail-product.html" class="name-phone text-bold py5">Iphone 14 Pro chính Hãng Mới 100%</a>
+                                    <div class="d-flex align-middle">
+                                        <div class="real-price">
+                                            32.000.000d
+                                        </div>
+                                        <div class="fake-price text-muted pl10 text-small">
+                                            <s><small>39.200.000d</small></s>
+                                        </div>      
+                                    </div>
+                                    <div class="form-radio">
+                                        <input type="radio" name="gender" checked>
+                                        <i class="form-icon"></i>So Sánh 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" style="background:white">
+        <div class="container pb20">
+            <div class="columns pt20">
+                <div class="column col-6 col-sm-12 pb10-sm">
+                    <div class="mb10"><img class="w50" src="img/logo.webp"></div>
+                    <p class="text-small"><strong>Trụ sở chính:</strong> 2Bis Trường Chinh, Phường 4, Tân Bình, TP HCM (Có bãi đậu Oto)</p>
+    
+                    <p class="text-small"><strong>Email:</strong> hi@mimallvn.com</p>
+                        
+                    <p class="text-small"><strong>Hotline:</strong> 1900 636 645</p>
+                </div>
+                <div class="column col-3 col-sm-12 pb10-sm">
+                    <div class="footer-title bold-5 py5">Giới thiệu</div>
+                    <a href="#"><div class="list-item bold-4 line-height">Điện thoại</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Laptop</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Ipad</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Phụ kiện</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Apple watch</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Âm thanh</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Dịch vụ sửa chữa</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Máy cũ giá rẻ</div></a>
+                </div>
+                <div class="column col-3 col-sm-12 pb10-sm">
+                    <div class="">
+                        <div class="footer-title bold-5 py5">Kết nối với chúng tôi</div>
+                        <img class="w50" src="img/vbn.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

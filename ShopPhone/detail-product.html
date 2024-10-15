@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/spectre/spectre-exp.min.css">
+    <link rel="stylesheet" href="css/spectre/spectre-icons.min.css">
+    <link rel="stylesheet" href="css/spectre/spectre.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/font/fontawesome/css/all.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Document</title>
+</head>
+<body style="background:#f3f3f3">
+    <header>
+        <section id="header-desktop" class="hide-sm">
+            <div class="container pt10">
+                <div class="d-flex justify-start align-middle px-5">
+                    <div class="logo w16">
+                        <a href="index.html"><img class="" src="img/logo.webp" alt=""/></a>
+                    </div>
+                    <div class="box-address px5 py2 mx10">
+                        <a href="hethongcuahang.html" class="text-small text-white">Hệ thống cửa hàng <br><strong>TP.Hồ Chí Minh</strong></a>
+                    </div>
+                    <form class="d-flex form-search justify-between align-middle border">
+                        <input type="text" placeholder="Từ Khóa..." />
+                        <div class="px20">
+                            <i class="fas main-text-color fa-search"></i>
+                        </div>
+                    </form>
+                    <div class="d-flex justify-between align-middle mx10">
+                        <div class="name1 px10 py5 border-right bold-4">
+                            <a class="name" href="detail-product.html">Điện thoại</a>
+                        </div>
+                        <div class="px10 py2 bold-4">
+                            <a class="name" href="#">Laptop</a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-between align-middle">
+                        <img class="phone" src="img/1.jpg">
+                        <div class="mx5">
+                            <a class="text-white bold-5 text-small">
+                               Gọi mua hàng <br> <strong>1900 678 789</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-between align-middle mx10">
+                        <div class="s-circle border px5"><i class="fa-solid fa-user text-white"></i></i></div>
+                        <div class="px5">
+                            <a class="text-small bold-6 text-white d-block">Đăng nhập</a>
+                            <a class="text-small bold-6 text-white d-block">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="box-cart px5 py2 mx10">
+                        <div class="d-flex">
+                            <div class="d-flex justify-between align-middle mx5"><i class="fa-solid fa-cart-shopping text-white"></i></div>
+                            <a class="bold-5 ml10 mr5 py5 text-small" href="#">Giỏ <br> hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="header-mobile" class="hide">
+                <div class="container" style="background:black">
+                    <div class="d-flex justify-start align-middle py5" style="background:black">
+                        <div class="logo w16 p10" style="background:white">
+                            <a href="#"><img class="" src="img/logo.webp" alt=""/></a>
+                        </div>
+                        <div class="my10 pl20 w100">
+                            <form class="d-flex form-search justify-between align-middle border">
+                                <input type="text" placeholder="Tìm sản phẩm ..." />
+                                <div class="px-1">
+                                    <i class="fas main-text-color fa-search"></i>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>    
+        <div id="main-menu" class="hide-sm main-bg-color">
+            <div class="container">
+                <div class="d-flex justify-start align-middle" style="margin: 0 auto">
+                        <div class="item">
+                            <a class="text-large" href="dienthoai.html"> Điện thoại <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Apple</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Iphone Cũ</a></li>
+                                        <li> <a href="#">Iphone Mới</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Samsung</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Galaxy Z Fold 4</a></li>
+                                        <li> <a href="#">Galaxy Z Fold 5</a></li>
+                                        <li> <a href="#">Galaxy Z Fold 6</a></li>
+                                        <li> <a href="#">Galaxy Z Fold 7</a></li>
+                                        <li> <a href="#">Galaxy Z Fold 8</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="intro.html"> Laptop <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Apple</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Ipad Pro</a></li>
+                                        <li> <a href="#">Ipad Air</a></li>
+                                        <li> <a href="#">Ipad Mini</a></li>
+                                        <li> <a href="#">MiniPad</a></li>
+                                        
+                                    </ul>
+                                </li>                     
+                                <li>
+                                    <a href="#">Laptop Dell</a>
+                                </li>
+                                <li><a href="#">Laptop MSI</a></li>
+                                <li><a href="#">Laptop Asus</a></li>
+                                <li><a href="#">Laptop HP</a></li>
+                                <li><a href="#">Laptop Lenovo</a></li>
+                                <li><a href="#">Laptop Acer</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="products.html"> Ipad <i class="fa-solid fa-caret-down"></i> </a>
+                            <ul class="subnav">
+                                <li><a href="#">Ipad Cũ</a></li>
+                                <li><a href="#">Ipad Mới</a></li>
+                                <li><a href="#">Ipad Mini</a></li>
+                                <li><a href="#">Ipad Air</a></li>
+                                <li><a href="#">Ipad Pro</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="news.html"> Phụ kiện <i class="fa-solid fa-caret-down"></i> </a>
+                            <ul class="subnav">
+                                <li><a href="#">Phụ kiện Mac</a></li>
+                                <li><a href="#">Phụ kiện Apple</a></li>
+                                <li><a href="#">Phim sạc dự phòng</a></li>
+                                <li><a href="#">Dây củ sạc</a></li>
+                                <li><a href="#">Adapter Dây củ sạc</a></li>
+                                <li><a href="#">Cường lực ốp lưng</a></li>
+                                <li><a href="#">Balo, túi xách, ví</a></li>
+                                <li><a href="#">Adapter Dây củ sạc</a></li>
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Apple</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Ipad Pro</a></li>
+                                        <li> <a href="#">Ipad Air</a></li>
+                                        <li> <a href="#">Ipad Mini</a></li>
+                                        <li> <a href="#">MiniPad</a></li>
+                                        
+                                    </ul>
+                                </li>   
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="contact.html"> Apple watch </a>
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="contact.html"> Âm thanh <i class="fa-solid fa-caret-down"></i> </a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="d-flex justify-between" href="#">
+                                        <div class="">Apple</div>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="subnav2">
+                                        <li> <a href="#">Ipad Pro</a></li>
+                                        <li> <a href="#">Ipad Air</a></li>
+                                        <li> <a href="#">Ipad Mini</a></li>
+                                        <li> <a href="#">MiniPad</a></li>
+                                        
+                                    </ul>
+                                </li> 
+                                <li><a href="#">Marshall</a></li>
+                                <li><a href="#">Bose</a></li>
+                                <li><a href="#">Bang & Olufsen</a></li>
+                                <li><a href="#">Beats audio</a></li>
+                            </ul>    
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="contact.html"> Dịch vụ sữa chữa </a>                              
+                        </div>
+                        <div class="item">
+                            <a class="text-large" href="contact.html"> Máy cũ giá rẻ <i class="fa-solid fa-caret-down"></i> </a>
+                            <ul class="subnav">
+                                <li><a href="#">Iphone cũ</a></li>
+                                <li><a href="#">Ipad cũ</a></li>
+                                <li><a href="#">Mac cũ</a></li>
+                            </ul>  
+                        </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <section id="breakrum" style="background:white">
+        <div class="container mb20">
+            <div class="d-flex justify-start align-middle">
+                <i class="fa-sharp fa-solid fa-house text-small pr-2"></i>
+                <div class="breadcrumb">
+                    <div class="breadcrumb-item">
+                        <a href="#" class="text-small">Trang chủ</a>
+                    </div>
+                    <div class="breadcrumb-item">
+                        <a href="#" class="text-small">IPHONE CHÍNH HÃNG MỚI 100% LLA | VNA</a>
+                    </div>
+                    <div class="breadcrumb-item">
+                        <a href="#" class="text-small">Iphone 13 Pro Max Chính Hãng Mới 100%</a>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </section>
+    <section id="detail-product">
+        <div class="container mt20 mb20 ">
+            <div class="main-detail-product pt10 pb10 rounded px15">
+                <div class="d-flex justify-start py10 hide-sm">
+                    <div class="bold-6 py5 h4 col-sm-12 d-inline-block">iPhone 13 Pro Max Chính Hãng Mới 100%</div>
+                    <div class="sosach-btn ml30 border rounded col-sm-12 ">
+                        <div class="d-flex py5 px10">
+                            <i class="fa-sharp fa-solid fa-circle-plus justify-center pt-2"></i>
+                            <div class="pl-2 h4">So sánh</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hide">
+                    <div class="bold-6 py5 h4 col-sm-12">iPhone 13 Pro Max Chính Hãng Mới 100%</div>
+                    <div class="sosach-btn ml30 border rounded col-sm-4">
+                        <div class="d-flex pt5 px10">
+                            <i class="fa-sharp fa-solid fa-circle-plus justify-center pt-2"></i>
+                            <div class="pl-2 h4">So sánh</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns py10">
+                    <div class="column col-9 col-sm-12">
+                        <div class="columns">
+                            <div class="column col-6 col-sm-12">
+                                <img src="img/iptim.webp" class="col-sm-12">
+                                <div class="columns mt10 col-sm-12">
+                                    <div class="column col-12d5 col-sm-4">
+                                        <div class="sub-pic">
+                                            <img src="img/iptim.webp" style="height:60px">
+                                        </div>
+                                    </div>
+                                    <div class="column col-12d5 col-sm-4">
+                                        <div class="sub-pic">
+                                            <img src="img/iptim.webp" style="height:60px">
+                                        </div>
+                                    </div>
+                                    <div class="column col-12d5 col-sm-4">
+                                        <div class="sub-pic">
+                                            <img src="img/iptim.webp" style="height:60px">
+                                        </div>
+                                    </div>
+                                    <div class="column col-12d5 col-sm-4">
+                                        <div class="sub-pic">
+                                            <img src="img/iptim.webp" style="height:60px">
+                                        </div>
+                                    </div>
+                                    <div class="column col-12d5 col-sm-4">
+                                        <div class="sub-pic">
+                                            <img src="img/iptim.webp" style="height:60px">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column col-6 col-sm-12">
+                                <div class="price py10 px15 rounded hide-sm">
+                                    <div class="d-flex">
+                                        <div class="real-price">13.456.789đ</div>
+                                        <div class="fake-price ml10 text-muted"><s>15.678.999đ</s></div>
+                                    </div>
+                                </div>
+                                <div class="bd-lienhe hide col-sm-12">
+                                    Liên Hệ
+                                </div>
+                                <div class="pt20 bold-6 h4">Màu sắc</div>
+                                <div class="columns pt10">
+                                    <div class="column col-3">
+                                        <div class="color-item">
+                                            <div class="circle w33 ml5">
+                                                <img class="" src="img/iptim.webp">
+                                            </div>
+                                            <div class="pt5 pl-2 bold-6">Gold</div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="column col-3">
+                                        <div class="color-item">
+                                            <div class="circle w33 ml5">
+                                                <img class="" src="img/iptim.webp">
+                                            </div>
+                                            <div class="pt5 pl-2 bold-6">Gold</div>
+                                        </div>     
+                                    </div>
+                                    <div class="column col-3">
+                                        <div class="color-item">
+                                            <div class="circle w33 ml5">
+                                                <img class="" src="img/iptim.webp">
+                                            </div>
+                                            <div class="pt5 pl-2 bold-6">Gold</div>
+                                        </div>    
+                                    </div>
+                                    <div class="column col-3">
+                                        <div class="color-item">
+                                            <div class="circle w33 ml5">
+                                                <img class="" src="img/iptim.webp">
+                                            </div>
+                                            <div class="pt5 pl-2 bold-6">Gold</div>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="pt20 bold-6 h4">Dung lượng</div>
+                                <div class="d-flex pt10">
+                                    <div class="hover-check">
+                                        <div class="dungluong-item bold-6">64GB</div>
+                                    </div>
+                                    <div class="hover-check">
+                                        <div class="dungluong-item bold-6">256GB</div>
+                                    </div>                               
+                                </div>
+                                <div class="d-flex pt10 mt10">
+                                    <div class="bold-6 h4 mr15 mt10">Số lượng</div>
+                                    <div class="d-flex mr10">
+                                        <button class="btn-them-xoa mx-2">-</button>
+                                        <button class="btn-them-xoa mx-2">+</button>
+                                    </div>
+                                    <input class="text-area" placeholder="1" type="number">
+                                </div>
+                                <div class="columns pt10 mt5">
+                                    <div class="column col-9 hide-sm">
+                                        <button class="btn-mua-ngay">
+                                            <div class="bold-6">MUA NGAY</div>
+                                            <div class="text-small">(Giao tận nơi hoặc lấy tại cửa hàng)</div>
+                                        </button>
+                                    </div>
+                                    <div class="column col-3 hide-sm">
+                                        <button class="btn-them-gio">
+                                            <div class="bold-6"><i class="fa-sharp fa-solid fa-cart-shopping"></i></div>
+                                            <div class="text-small"><small>Thêm vào giỏ</small></div>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="pt10 mt10">
+                                    <button class="btn-tra-gop">Hướng dẫn thanh toán trả góp online = Kredivo</button>
+                                </div>
+                                <div class="columns mt10">
+                                    <div class="column col-6">
+                                        <div class="btn-tra-qua-the">
+                                            <div class="bold-6">TRẢ GÓP QUA THẺ</div>
+                                            <div class="text-small">Visa, Master, JCB</div>
+                                        </div>
+                                    </div>
+                                    <div class="column col-6">
+                                        <div class="btn-muatruoc-trasau">
+                                            <div class="bold-6">MUA NGAY - TRẢ SAU</div>
+                                            <div class="text-small">Krelinovo</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="mt20 hide-sm">
+                                    <div class="h4 bold-6 mb10">Mua cùng deal sốc !!!</div>
+                                    <div class="d-flex pt10">
+                                            <label class="form-checkbox mt10">
+                                                <input type="checkbox">
+                                                <i class="form-icon p10"></i>
+                                              </label>
+                                            <img class="sell-pic" src="img/iptim.webp" height="50px">
+
+                                            <div class="mt10 pl10"><strong>Bạn đang xem:</strong> iPhone 11 ProMax Cũ Quốc Tế Chính Hãng</div>
+
+                                            <div class="pt10">1980.0000đ</div>
+                                    </div>
+                                    <div class="d-flex pt10">
+                                        <label class="form-checkbox mt10">
+                                            <input type="checkbox">
+                                            <i class="form-icon p10"></i>
+                                          </label>
+                                        <img class="sell-pic" src="img/iptim.webp" height="50px">
+
+                                        <div class="mt10 pl10"><strong>Bạn đang xem:</strong> iPhone 11 ProMax Cũ Quốc Tế Chính Hãng</div>
+
+                                        <div class="pt10">1980.0000đ</div>
+                                    </div>
+                                    <div class="d-flex pt10">
+                                        <label class="form-checkbox mt10">
+                                            <input type="checkbox">
+                                            <i class="form-icon p10"></i>
+                                        </label>
+                                        <img class="sell-pic" src="img/iptim.webp" height="50px">
+
+                                        <div class="mt10 pl10"><strong>Bạn đang xem:</strong> iPhone 11 ProMax Cũ Quốc Tế Chính Hãng</div>
+
+                                        <div class="pt10">1980.0000đ</div>
+                                    </div>
+                                    <div class="d-flex justify-end pt10">
+                                        <div class="bold-6">Tổng tiền: 0d</div>     
+                                    </div>
+                                    <div class="d-flex justify-end pt5">
+                                        <button class="btn-them-tt">thêm vào giỏ hàng</button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="mt20 mb20">
+                                    <div class="text-small bold-6 pb10">iPhone 13 ProMax Mới Combo giá ưu đãi chỉ 1290K -> 790K gồm:</div>
+                                    <div class="text-small text-muted py10">- Máy, Hộp, Củ sạc nhanh(650K), Cường Lực, Ốp lưng.</div>
+                                    <div class="text-small text-muted py10">- Gói bảo hành 12 tháng (+700K Upgrade 12 tháng 1 đổi 1)</div>
+                                    <div class="text-small bold-6 pb10">Ưu đãi:</div>
+                                    <div class="text-small text-muted py5 text-lowercase">1 - MÁY MỚI, NGUYÊN HỘP, NGUYÊN SEAL, QUỐC TẾ TRỌN ĐỜI</div>
+                                    <div class="text-small text-muted py5 text-lowercase">2 - LỖI LÀ ĐỔI MÁY - KHÔNG BUNG SỬA (CÓ MUA GBHMR)</div>
+                                    <div class="text-small text-muted py5 text-lowercase">3 - CHECK ACTIVE TẠI CHỖ - RÕ RÀNG MINH BẠCH</div>
+                                    <div class="text-small text-muted py5 text-lowercase">4 - Hỗ trợ góp 0% thẻ tín dụng, góp bao duyệt kể cả nợ xấu.</div>
+                                    <div class="text-small text-muted py5 text-lowercase">5 - Sinh viên mua trả góp lãi chỉ từ 1K/Ngày.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-thongtin py10 px15 rounded">
+                            <div class="bold-6 py5 mb5 h4">Thông tin chi tiết</div>
+                            <div class="title-boxthongtin h3 mb5">iPhone 11 ProMax Cũ Quốc Tế Chính Hãng Giá Rẻ Nhất Tại Mimall Vietnam iphone 11 pro max cu thegioididong</div>
+                            <div class="py5 ">
+                                <p class="">
+                                    <i class="fa-sharp fa-solid fa-gift color-yellow"></i>THU LẠI MÁY CŨ - TRỢ GIÁ 1 TRIỆU - ĐỔI MỚI KHÔNG BÙ TIỀN<br>
+                                    <i class="fa-sharp fa-solid fa-gift color-yellow"></i>𝐌𝐮𝐚 𝐆𝐨́𝐩 𝐂𝐡𝐢̉ 𝐕𝐨̛́𝐢 𝟗𝟗𝟎𝐤, 𝐂𝐡𝐢̉ 𝐂𝐚̂̀𝐧 𝐂𝐌𝐍𝐃 (BAO DUYỆT TRẢ TRƯỚC 40%)<br>
+                                    <i class="fa-sharp fa-solid fa-gift color-yellow"></i>MÁY SẠCH - MAIN ZIN MÀN ZIN - BAO BUNG CHECK TẠI CHỖ - KHÔNG ZIN ĐẬP MÁY<br>
+                                    <i class="fa-sharp fa-solid fa-gift color-yellow"></i>LỖI LÀ ĐỔI MÁY - KHÔNG BUNG SỬA<br>
+                                    <i class="fa-sharp fa-solid fa-gift color-yellow"></i>CHỈ BÁN MÁY QUỐC TẾ - KHÔNG BÁN LOCK<br>
+                                    <i class="fa-sharp fa-solid fa-gift color-yellow"></i>Báo giá là có hàng - không báo ảo<br>
+                                    <i class="fa-sharp fa-solid fa-gift color-yellow"></i>Trả góp lãi suất 0% qua thẻ tín dụng<br>
+                                    <i class="fa-sharp fa-solid fa-gift color-yellow"></i>Không thẩm định người thân và không giữ giấy tờ<br>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="box-splienquan" class="py10 px15 rounded">
+                            <div class="d-flex justify-between pb10">
+                                <div class="bold-6 py5 mb5 h4">Sản phẩm liên quan</div>
+                                <div class="d-flex">
+                                    <div class="btn-left"><i class="fa-sharp fa-solid fa-angle-left"></i></div>
+                                    <div class="btn-right"><i class="fa-sharp fa-solid fa-angle-right"></i></div>                             
+                                </div>
+                            </div>
+                            <div class="columns">
+                                <div class="column col-4 pb10 col-sm-12">
+                                    <div class="box-splq-item ">
+                                        <div class="columns">
+                                            <div class="column col-4">
+                                                <div class="zoom">
+                                                    <img class="" src="img/iptim.webp" style="height:80px">
+                                                </div>                                             
+                                            </div>
+                                            <div class="column col-8">
+                                                <div class="name-phone">Iphone 14 Promax Chính hãng mới 100%</div>
+                                                <div class="d-flex">
+                                                    <div class="real-price">32.200.000đ</div>
+                                                    <div class="fake-price text-muted"><s>39.200.000d</s></div>
+                                                </div>
+                                                <div class="form-radio">
+                                                    <input type="radio" name="gender" checked>
+                                                    <i class="form-icon"></i><div class="text-muted text-small">So Sánh </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column col-4 pb10 col-sm-12">
+                                    <div class="box-splq-item">
+                                        <div class="columns">
+                                            <div class="column col-4">
+                                                <div class="zoom">
+                                                    <img class="" src="img/iptim.webp" style="height:80px">
+                                                </div>                                             
+                                            </div>
+                                            <div class="column col-8">
+                                                <div class="name-phone">Iphone 14 Promax Chính hãng mới 100%</div>
+                                                <div class="d-flex">
+                                                    <div class="real-price">32.200.000đ</div>
+                                                    <div class="fake-price text-muted"><s>39.200.000d</s></div>
+                                                </div>
+                                                <div class="form-radio">
+                                                    <input type="radio" name="gender" checked>
+                                                    <i class="form-icon"></i><div class="text-muted text-small">So Sánh </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column col-4 pb10 hide-sm">
+                                    <div class="box-splq-item">
+                                        <div class="columns">
+                                            <div class="column col-4">
+                                                <div class="zoom">
+                                                    <img class="" src="img/iptim.webp" style="height:80px">
+                                                </div>                                             
+                                            </div>
+                                            <div class="column col-8">
+                                                <div class="name-phone">Iphone 14 Promax Chính hãng mới 100%</div>
+                                                <div class="d-flex">
+                                                    <div class="real-price">32.200.000đ</div>
+                                                    <div class="fake-price text-muted"><s>39.200.000d</s></div>
+                                                </div>
+                                                <div class="form-radio">
+                                                    <input type="radio" name="gender" checked>
+                                                    <i class="form-icon"></i><div class="text-muted text-small">So Sánh </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column col-4 pb10 hide-sm">
+                                    <div class="box-splq-item ">
+                                        <div class="columns">
+                                            <div class="column col-4">
+                                                <div class="zoom">
+                                                    <img class="" src="img/iptim.webp" style="height:80px">
+                                                </div>                                             
+                                            </div>
+                                            <div class="column col-8">
+                                                <div class="name-phone">Iphone 14 Promax Chính hãng mới 100%</div>
+                                                <div class="d-flex">
+                                                    <div class="real-price">32.200.000đ</div>
+                                                    <div class="fake-price text-muted"><s>39.200.000d</s></div>
+                                                </div>
+                                                <div class="form-radio">
+                                                    <input type="radio" name="gender" checked>
+                                                    <i class="form-icon"></i><div class="text-muted text-small">So Sánh</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column col-4 pb10 hide-sm">
+                                    <div class="box-splq-item">
+                                        <div class="columns">
+                                            <div class="column col-4">
+                                                <div class="zoom">
+                                                    <img class="" src="img/iptim.webp" style="height:80px">
+                                                </div>                                             
+                                            </div>
+                                            <div class="column col-8">
+                                                <div class="name-phone">Iphone 14 Promax Chính hãng mới 100%</div>
+                                                <div class="d-flex">
+                                                    <div class="real-price">32.200.000đ</div>
+                                                    <div class="fake-price text-muted"><s>39.200.000d</s></div>
+                                                </div>
+                                                <div class="form-radio">
+                                                    <input type="radio" name="gender" checked>
+                                                    <i class="form-icon"></i><div class="text-muted text-small">So Sánh </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column col-4 pb10 hide-sm">
+                                    <div class="box-splq-item">
+                                        <div class="columns">
+                                            <div class="column col-4">
+                                                <div class="zoom">
+                                                    <img class="" src="img/iptim.webp" style="height:80px">
+                                                </div>                                             
+                                            </div>
+                                            <div class="column col-8">
+                                                <div class="name-phone">Iphone 14 Promax Chính hãng mới 100%</div>
+                                                <div class="d-flex">
+                                                    <div class="real-price">32.200.000đ</div>
+                                                    <div class="fake-price text-muted"><s>39.200.000d</s></div>
+                                                </div>
+                                                <div class="form-radio">
+                                                    <input type="radio" name="gender" checked>
+                                                    <i class="form-icon"></i><div class="text-muted text-small">So Sánh </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-3 hide-sm">
+                        <img class="rounded" src="img/032.jpg">
+                        <div class="p5 border mt20 rounded">
+                            <div class="info-sub d-flex">Tình Trạng: <p class="pl-2" style="color:green"> Còn Hàng</p></div>
+                            <div class="info-sub d-flex">Thương Hiệu: <p class="pl-2" style="color:green"> Apple</p></div>
+                            <div class="info-sub d-flex">Loại: <p class="pl-2" style="color:green">Điện thoại</p></div>
+                        </div>
+                        <div class="discount mt30">
+                            <div class="discount-title">Code Ưu Đãi</div>
+                            <div class=" mt20">Nhập mã <strong>Mimall2022</strong> để được giảm ngay 200k (áp dụng cho các đơn hàng trên 500)</div>
+                            <a class="copy-btn mb15 mt-2">Sao chép</a>
+                            <div class="">Nhập mã <strong>Iphone14</strong> để được giảm ngay 2000k (áp dụng cho các đơn hàng trên 500)</div>
+                            <a class="copy-btn mb15 mt-2">Sao chép</a>
+                            <div class="">Nhập mã <strong>FreeShip</strong> để được giảm ngay 200k (áp dụng cho các đơn hàng trên 500)</div>
+                            <a class="copy-btn mb15 mt-2">Sao chép</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" style="background:white">
+        <div class="container pb20">
+            <div class="columns pt20">
+                <div class="column col-6 pb10-sm">
+                    <div class="mb10"><img class="w50" src="img/logo.webp"></div>
+                    <p class="text-small"><strong>Trụ sở chính:</strong> 2Bis Trường Chinh, Phường 4, Tân Bình, TP HCM (Có bãi đậu Oto)</p>
+    
+                    <p class="text-small"><strong>Email:</strong> hi@mimallvn.com</p>
+                        
+                    <p class="text-small"><strong>Hotline:</strong> 1900 636 645</p>
+                </div>
+                <div class="column col-3 col-sm-12 pb10-sm">
+                    <div class="footer-title bold-5 py5">Giới thiệu</div>
+                    <a href="#"><div class="list-item bold-4 line-height">Điện thoại</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Laptop</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Ipad</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Phụ kiện</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Apple watch</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Âm thanh</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Dịch vụ sửa chữa</div></a>
+                    <a href="#"><div class="list-item bold-4 line-height">Máy cũ giá rẻ</div></a>
+                </div>
+                <div class="column col-3 col-sm-12 pb10-sm">
+                    <div class="">
+                        <div class="footer-title bold-5 py5">Kết nối với chúng tôi</div>
+                        <img class="w50" src="img/vbn.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

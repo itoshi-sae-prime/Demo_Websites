@@ -1,0 +1,107 @@
+/* ////////////////////////////////////////////////////////////////////////// */
+ /* Chỉnh sửa css ở đây  */
+ /* ////////////////////////////////////////////////////////////////////////// */
+
+/* Khung search  */
+.form-search {width: 200px;background-color: white;overflow: hidden;border-radius: 25px 25px 25px 25px;border: 1px solid  #ccc;}
+.form-search input {flex: 1;outline: none;border: none;padding: 10px 15px;}
+.form-search button {outline: none;border: none;background-color: white;padding: 0 12px;}
+
+
+/* Header  */
+#header-desktop{
+    /* background-color: #f5f5f5; */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+#header-desktop .logo img{
+     width: 250px;
+}
+#header-desktop .cart img{width: 35px; height: 35px;}
+#header-desktop .user img{width: 35px; height: 35px;}
+
+
+#header-mobile {box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);}
+#header-mobile .logo img{width: 150px;}
+#header-mobile .cart img{width: 30px;}
+
+
+/* Main-menu  */
+#main-menu .item {padding: 7px;text-transform: uppercase;}
+#main-menu .item a {color: black !important;font-size: 0.7rem;font-weight: 500;}
+#main-menu .item a:hover {cursor: pointer;color: var(--primary-hover) !important;}
+
+/* Slider */
+#slider img{width: 100%;}
+
+/* Các mục của trang chủ */
+.title-home{position: relative; padding-bottom: 10px; margin-bottom: 15px;}
+/* .title-home::after{position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary);
+} */
+.title-home h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+/* Footer  */
+footer {background-color: #333 !important; color: white;}
+footer a {color: white !important;}
+footer a:hover {color: var(--primary-hover) !important;}
+footer .title-ft {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+footer ul li{
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 4px 0;
+}
+#footer-bottom{background-color: black; font-size: 0.9rem;}
+
+
+
+
+/* Product Details  */
+#product-detail .list-img img{
+    width: 100px;
+}
+#selected-content .description .title{
+    background-color: var(--primary);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    position: relative;
+  }
+  #selected-content  .body{
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+  }
+  #selected-content .description .title::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+      height: 3px;
+      width: 80px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+  }
+  
+
+
+
+/* Mobile custom */
+@media only screen and (max-width: 480px) {
+    .form-search {width: 100%;}
+}

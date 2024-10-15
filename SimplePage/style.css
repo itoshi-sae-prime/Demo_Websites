@@ -1,0 +1,365 @@
+@media (min-width: 1200px) {.container {max-width: 1200px !important;}}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#header{
+    background-color:#00676B;
+    width: 100%;
+    height: 111px;
+    position: fixed;
+    top:0;
+}
+#header .bt-hd{
+    font-size:20px;
+    bottom: 40px;
+    color:#F1AF00;
+    font-style: bold;
+}
+#nav li{
+    display: inline-block;
+}
+#nav{
+    text-align: center;
+}
+#nav li a {
+    position: relative; 
+    padding-left: 60px;   
+}
+li a{
+    justify-content: center;
+}
+#nav li a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+/*Giao-Dien-Chuyen-Dong */
+#Giao-dien{
+    margin-top: 111px;
+    text-align: center;
+    background-image: url("img/3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 900px;
+    padding-bottom: 10px;  
+}
+#Giao-dien .title-GiaoDien{ 
+    padding-top: 22%;
+    color:#ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.title-GiaoDien h1{
+    font-size: xx-large;
+    font-size: 75px;
+    font-style: bold;
+    font-family:'fantasy';
+    
+}
+.title-GiaoDien h3{
+    font-size: xx-large;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Page-Lido*/
+#Page-lido{
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:5%;
+    padding-bottom:2%;
+}
+#Page-lido .title-Page-lido{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#Page-lido .content-Page-lido{
+    font-size: 18px;
+}
+#Page-lido video{
+    width: 433px;
+    height: 350px;
+}
+/*Page-noibat*/
+#Page-noibat{
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom:7%;
+    background-color: #FEEBD0;
+    padding-top: 2%;
+}
+#Page-noibat .title-NoiBat{
+    text-align: center;
+    padding-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1100;
+    font-size: xx-large;
+}
+#Page-noibat .icon-nha{
+    font-size: xx-large;
+}
+#Page-noibat button
+{   
+    width: 100%;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+}
+#Page-noibat .bt-sl3{
+    display: block;
+    text-align: left;
+    margin:auto;
+    background-color: #00A06B;
+}
+#Page-noibat .bt-sl3:hover{
+    background-color: #F9F400;
+}
+/*Page-tienich*/
+#Page-tienich{
+    width: 100%;
+    height: auto;
+    
+    padding-bottom:7%;
+    background-image: url("img/z.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 5%;
+}
+#Page-tienich .title-tienich{
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+#Page-tienich .columns{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#Page-tienich .btn{
+    background: #456BD9;
+    border: 1px solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(15, 28, 63, 0.125);
+    height: 130px;
+    width: 130px;
+    background-image: url("img/9.png");
+}
+#Page-tienich .title-cl8{
+    text-align: left;
+}
+#Page-tienich .content-cl8{
+    font-size: 18px;
+}
+#Page-tienich .btn-tcu1{
+    background-image: url("img/1.jpg");
+}
+#Page-tienich .btn-tcu2{
+    background-image: url("img/4.jpg");
+}
+#Page-tienich .btn-tcu3{
+    background-image: url("img/5.jpg");
+}
+#Page-tienich .btn-tcd4{
+    background-image: url("img/6.jpg");
+}
+#Page-tienich .btn-tcd5{
+    background-image: url("img/a.jpg");
+}
+#Page-tienich .btn-tcd6{
+    background-image: url("img/c.jpg");
+}
+#Page-tienich .box{
+    padding-top:20px;
+    background-color:#ffcccc;
+    width: 100%;
+    border: 3px solid #ffcccc;
+    box-shadow: 0 4px 2px -3px;
+    height: 100px;
+    line-height: 40px;
+    height: 450px;
+}
+/*Page-tieubieu*/
+#Page-tieubieu{
+    width: 100%;
+    height: auto;
+    padding-bottom:7%;
+    padding-top: 5%;
+    padding-left:10%;
+    padding-right:10%;
+    text-align: center;
+}
+#Page-tieubieu .title-sl4{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Page-tieubieu .columns{
+    font-size: 30px;
+}
+/*PageCachThuc*/
+#Page-cachthuc{
+    text-align: center;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:7%;
+    background-image: url("img/e.jpg");
+    color:white;
+}
+#Page-cachthuc .content-sl5{
+    font-size: 17px;
+}
+#Page-cachthuc .footer-sl5{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+#Page-cachthuc .title-sl4{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Page-cachthuc .icon-nha{
+    font-size: xx-large;
+}
+#Page-cachthuc .sodo-pic{
+    width: 100%;
+}
+/*Page-hoptact*/
+#Page-hoptac{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+}
+#Page-hoptac .title-sl7{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Page-hoptac .columns{
+    font-size: 15px;
+}
+#Page-hoptac img{
+    border-style: dashed;
+}
+/*Page-khampha*/
+#Page-khampha{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    background-image: url("img/6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 12px;
+    color:white;
+    padding-bottom: 3%;
+}
+/*footer*/
+#footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+    background-image: url("img/22.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 8%;
+    color:white
+}
+#footer .formft{
+    padding: 2% 2%;
+}
+#footer p{
+    text-align: center;
+    font-size: 25px;
+}
+#footer h4{
+    text-align: center;
+}
+#footer .lv1 .tn1{
+    width: 50%;
+    height: 40px;
+    padding-left: 10px;
+    float:left;
+}
+#footer .lv1 .tn2{
+    width: 50%;
+    height: 40px;
+    padding-left: 10px;
+    float:left;
+}
+#footer .lv2 .ln{
+    width: 100%;
+    height: 80px;
+    padding-left: 10px;
+    float:left;
+    padding-bottom: 70px;
+}
+#footer .ln{
+    border-radius: 15px;
+    border-radius: 15px 15px;
+    border-radius: 15px 15px 15px;
+    border-radius: 15px 15px 15px;
+}
+#footer .tn1 {
+    border-radius: 15px;
+    border-radius: 15px 15px;
+    border-radius: 15px 15px 15px;
+    border-radius: 15px 15px 15px;
+}
+#footer .tn2 {
+    border-radius: 15px;
+    border-radius: 15px 15px;
+    border-radius: 15px 15px 15px;
+    border-radius: 15px 15px 15px;
+}
+
+
+
+
+
+/*LoaiNut*/
+.btn2 {
+    font-weight: bold;
+    text-decoration:none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 50px 10px 40px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    background-color: black;
+    color: #ffffff  ;
+}
+.btn2:hover {
+    background-color: #ffffff;
+    color: black;
+}
+.btn3 {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 200px 10px 200px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    background-color: yellowgreen
+}
+#footer .btn3:hover{
+    background-color:#F1AF00;
+    color: black;
+}
+
+

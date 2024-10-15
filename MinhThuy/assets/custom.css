@@ -1,0 +1,511 @@
+/* ////////////////////////////////////////////////////////////////////////// */
+ /* Chỉnh sửa css ở đây  */
+ /* ////////////////////////////////////////////////////////////////////////// */
+
+#header-desktop .bt-hd{
+    font-family: "Varela Round", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+    color: #2B53B1 !important;
+    padding: 0px 15px 0px 15px;
+}
+#navbar li{
+    display: inline-block;
+    position: relative;
+}
+#navbar{
+    text-align: center;
+}
+#navbar a {
+    position: relative; 
+    color: aqua; 
+    font-family: 'Times New Roman', Times, serif;
+}
+#navbar .bt-hd{
+    padding-left: 25px;  
+    
+}
+#header-desktop .bt-hd4{
+    font-size:17px;
+    bottom: 26px;
+    font-weight: 590;
+    font-family:'Times New Roman', Times, serif;
+    padding: 15px;
+    border-color: black;
+}
+#navbar .bt-hd4{
+    padding-left: 30px;  
+}
+#header-desktop .ti-search{
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 50% 50% 50% 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 9px 9px 9px 9px;
+    width: 40px;
+    height: 86px;
+    line-height: 42px;
+    text-align: center;
+}
+#navbar .ti-search:hover{
+    background-color: #0072B9;
+    color:white;
+    border-color: #0072B9;
+}
+#navbar li a
+{
+    display: block;
+    text-decoration: none;
+    text-align: center;  
+    
+}
+/*NAVVBAXXXXXXX*/
+.subnav2{
+    display: block;
+    width: 100%;
+    left: 10px;
+    position: sticky;
+    z-index: 100;
+}
+.subnav2 li a {
+    float: left;
+    left: 40px;
+    color: #2854A4 !important;
+}
+.subnav2 li{
+    display: inline-block;  
+    width: 230px;
+    right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #2854A4 !important;
+}
+
+#navbar li:hover .subnav2 {
+    display: block;
+    position: absolute;
+}
+
+#navbar .subnav2{   
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 3px 10px 1px; 
+    left: 35px;
+}
+
+#navbar .subnav2 {
+    display: none;
+    float: left;  
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    font-size: 15px;
+    margin:0;
+    width: auto;
+    color: #2854A4 !important;
+}
+#header-desktop .bt-hd2{
+    font-size:17px;
+    bottom: 20px;
+    font-weight: 590;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.subnav3{
+    position: relative;
+    display: block;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+}
+.subnav3 li a {
+    text-align: center;
+    right:0;
+    position: relative;
+}
+.subnav3 li{
+    display: inline-block;  
+    width: 230px;
+    text-align: left;  
+    padding-left: 30px;
+    right: 10px;
+    position: absolute;
+}
+.subnav2 .subnav3{   
+    position:absolute;
+    background-color: white;
+    box-shadow: 5px 3px 10px 1px; 
+    left: 255px;
+    z-index: 10;
+}
+.subnav2 li:hover .subnav3{
+    display: block;
+    position: absolute;
+    
+}
+.subnav2 .subnav3 {
+    display:none;
+    text-align: center; 
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    font-size: 15px;
+    margin:0;
+    width: auto;
+    
+}
+
+ul{
+    list-style-type: none !important ; 
+}
+.search{
+    border-color: #0072B9 !important;
+    background-color: white !important;
+    color: #2B53B1 !important;
+}
+
+/*slide */
+
+
+/*Content*/
+#intro{
+    width: 100%;
+    height: 740px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: white;  
+    background-image: url(https://minhthuy.net/wp-content/uploads/2022/09/home1.jpg);
+    background-position: 0px 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}   
+#intro .container{
+    
+}
+.column{
+    padding-bottom: 12px;
+}
+.column h3{
+    color: var( --e-global-color-edee25e );
+    font-family: "Varela Round", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.column h4{
+    color: var( --e-global-color-edee25e );
+    font-family: "Varela Round", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.column p{
+    font-size: 17px;
+    font-weight: 400;
+}
+.column .anhmt{
+    border-radius: 275px 85px 85px 85px;
+}
+/*container4*/
+#products{
+    padding-top: 10px;
+    width: 100%;
+    height: 580px;
+    padding-bottom: 10px;    
+}
+#products h6{
+    color:black;
+}
+#products h1{
+    color:#0072B9;
+}
+.card-img-top{
+    height: 275px;
+    object-fit: cover;
+}
+.card-body1{
+    box-shadow: 5px 3px 10px 1px;
+    width: 354px;
+    height: 165px;
+    padding-top: 18px;
+}
+.card-title {
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.card{
+    height: auto;
+    padding-bottom: 10px;
+}
+.q100{
+    box-shadow:5px 5px 15px -7px rgb(0 0 0 / 50%);
+    padding-top: 20px;
+
+}
+.w100{
+    border-radius: 1px 1px 1px 1px;
+}
+/*container5*/
+#comment{
+    width: 100%;
+    height: 650px;
+    background-color:lavender;
+    padding-top: 30px;
+}
+#comment h1{
+    color: #0000BB;
+}
+#comment .formbig{
+    width: 100%;
+    height: 415px;
+    padding: 20px 20px;
+}
+#comment .columns{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 20px 20px -16px 20px;
+}
+#comment .column{
+    box-shadow: 1px 1px 1px 1px;
+    padding:10px 10px;
+    margin: 30px 15px;
+    box-shadow: 9px 11px 14px 0 rgb(0 0 0 / 10%);
+}
+#comment .ti-heart{
+    padding-right: 15px;
+}
+#comment .ftlast{
+    width: 100%;
+    text-align: center;
+    padding: 33px 20px;
+    height: 33px;
+    text-align: left;
+    font-size: 15px;
+    border-top-style: solid;
+}
+#comment .ti-thought{
+    font-size: 59px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#comment .anhdh{
+    display: inline-block;
+}
+#comment .content{
+    display: inline-block;
+    padding-left: 15px
+}
+#comment .profile{
+    padding-left: 25px;
+}
+#comment .texttb{
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    bottom: 0;
+}
+#comment .d-flex{
+    padding-left: 30px;
+}
+/*posts*/
+#posts{
+    width: 100%;
+    height: 665px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#posts h1{
+    color: darkblue;
+    text-align: center;
+    padding-bottom: 7px;
+    font-size: 50px;
+   
+}
+#posts .card-group{
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 50px;
+}
+#posts .card-img-top{
+    height: 245px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#posts .card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -5px rgb(0 0 0 / 50%);
+}
+
+#posts .card-title {
+    text-align: left;
+    font-family: "Varela Round", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 10px;
+}
+#posts .card-text{
+    text-align: left;
+}
+#posts .card-title1{
+    padding-top: 35px;
+}
+/*Contact*/
+#footer{
+    padding-top:60px;
+    width: 100%;
+    height: 360px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+#footer h5{
+    color: #FFFFFF;
+    font-family: "Varela Round", Sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 24px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+#footer a{
+    fill: var( --e-global-color-edee25e );
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 8px 0px;
+}
+.columns{
+    height: 300px;
+    margin-right: 25px;
+}
+.icon-tx{
+    font-size: 30px;
+    bottom: 5px;
+    display: block;
+    text-align: left;
+}
+
+.lktt{
+    /* padding-left: 93px; */
+    bottom: 5px;
+    font-size: 17px;
+    display: block;
+    text-align: left;
+}
+.lktt1{
+    /* padding-left: 95px; */
+    bottom: 100px;
+    font-size: 17px;
+    display: block;
+    text-align: left;
+}
+
+.dy{
+    font-size: 17px;
+    display: block;
+    text-align: left;
+}
+.te {
+    text-align: left;
+    bottom: 100px;
+    font-size: 17px;
+    display: block;
+    color: aqua;
+}
+#footer{
+    width: 100%;
+    height: 420px;
+    background-color:#2854A4 ;
+    font-size: 20px;
+}
+#footer .container{
+    font-family: 'Times New Roman', Times, serif;
+    height: 310px;
+    color:white;
+}
+#footer .ft1{
+    text-align: left; 
+    
+}
+#footer p{
+    background-color: #0072B9;
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+}
+#footer .btn4 {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: white;
+    right: 10px;
+}
+#footer a:hover {
+    color:white !important;
+}
+.ti-facebook:before {
+    content: "\e741";
+    color: #BCB9B9;
+}.ti-facebook:hover{
+    color: aqua;
+}
+.ti-twitter-alt:before {
+    content: "\e741";
+    color: #BCB9B9;
+}
+.ti-youtube:before {
+    content: "\e741";
+    color: #BCB9B9;
+}
+#footer .btn3{
+    background-color: #febc35;
+    color: #232323;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+    
+/*LoaiNut*/
+.btn2 {
+    font-weight: bold;
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px 40px 10px 35px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color:#2854A4 ;
+    color: #ffffff;
+}
+.btn2:hover {
+    background-color:goldenrod;
+    color: white;
+    padding-left: 13%;
+    padding-right: 13%;  
+}
+.btn3 {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 6px 15px;
+    background-color: coral;
+    text-align: center;
+}
+
